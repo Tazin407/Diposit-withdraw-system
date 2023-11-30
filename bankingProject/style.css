@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.amount-container{
+    padding: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 6px;
+}
+
+.amount-box{
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: cornflowerblue;
+
+}
+
+.diposit-withdraw-btns{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.box{
+    padding: 30px;
+    border: 1px solid black;
+}
